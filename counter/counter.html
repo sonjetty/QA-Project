@@ -1,0 +1,49 @@
+<!DocType html>
+<html>
+	<head>
+		<title>Bug Tracker</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="count.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+	<table border="1px">
+		<thead>
+			<tr>
+				<th colspan="2"><img src="data:image/png;base64,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"/>
+				<p id="title">QA Team</p></th>
+			</tr>
+
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+				<p id="beginning">It has been</p>
+				<div id="countup">
+  					<p id="days">00</p>
+  					<p id="timeRefDays">days</p>
+  					<p id="hours">00</p>
+  					<p id="timeRefHours">hours</p>
+				</div>	
+				<p id="end">since the last bug patch!</p>
+				<button id="reset" onclick="resetDate()">Reset Date</button>
+				</td>
+				<td>	
+				<div class="box">    
+        			<label for="qty"><abbr title="Quantity">Total Bugs Found</abbr></label>
+        			<input id="qty" value="0"/>
+        			<button id="down" onclick="modify_qty(-1)">-1</button>
+        			<button id="up" onclick="modify_qty(1)">+1</button>
+    			</div>
+    			<div class="box">    
+        			<label for="qty"><abbr title="Quantity">Bugs: Past 7 Days</abbr></label>
+        			<input id="qty" value="0"/>
+        			<button id="down" onclick="modify_qty(-1)">-1</button>
+        			<button id="up" onclick="modify_qty(1)">+1</button>
+    			</div>
+    			</td>
+    		</tr>
+		</tbody>
+	</table>
+
+</html>
